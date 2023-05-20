@@ -13,7 +13,7 @@ function requireAuth(req: express.Request, res: express.Response, next: express.
     }
 }
 
-app.get("/", (req, res) => {
+app.get("/api/hello", (req, res) => {
     res.send("Hello World");
 });
 
